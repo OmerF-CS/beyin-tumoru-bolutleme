@@ -80,7 +80,7 @@ python kontrol_et.py --hizli   # kurulumu doğrula
 
 1. Kaggle'dan **LGG MRI Segmentation** veri setini indirin:
    https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation
-2. Zip dosyasını `data/` klasörüne açın. Sonuçta şuna benzer bir yapı olmalı:
+2. Zip dosyasını `data/` klasörüne açın (veya İndirilenler/Masaüstü/Belgeler içine "Tümünü ayıkla" ile açmanız da yeterli; kod `kaggle_3m` klasörünü kendisi bulur). Örnek yapı:
    `data/kaggle_3m/TCGA_CS_4941_19960909/TCGA_CS_4941_19960909_1.tif`
    (İç içe klasör olması sorun değil; kod alt klasörleri kendisi tarar ve tekrar eden dosyaları ayıklar.)
 

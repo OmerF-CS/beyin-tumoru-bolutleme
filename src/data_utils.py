@@ -38,8 +38,10 @@ def find_pairs(data_dir: str | Path) -> pd.DataFrame:
     if not mask_paths:
         raise FileNotFoundError(
             f"'{data_dir}' altında *_mask.tif dosyası bulunamadı. "
-            "Kaggle veri setini indirip bu klasöre açtığınızdan emin olun."
+            "Kaggle veri setini indirip proje içindeki data/ klasörüne veya İndirilenler'e "
+            "açtığınızdan emin olun ya da --data-dir ile yolunu belirtin."
         )
+    print(f"Veri seti: {data_dir} ({len(mask_paths)} maske dosyası)")
 
     rows, seen = [], set()
     for mp in mask_paths:
