@@ -1,0 +1,18 @@
+# Önerilen Python sürümü: 3.11 veya 3.12 (3.10 da çalışır).
+#
+# PyTorch'u GPU (CUDA) desteğiyle kurmak için en kolay yol kurulum.bat'tır.
+# Elle kurulum için önce https://pytorch.org/get-started/locally/ adresindeki
+# komutla torch'u kurun, ardından:
+#   pip install -r requirements.txt
+torch>=2.1
+torchvision>=0.16
+segmentation-models-pytorch>=0.3.3
+opencv-python>=4.8
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-image>=0.21
+matplotlib>=3.7
+tqdm>=4.65
+gradio>=4.0
+pytest>=7.0

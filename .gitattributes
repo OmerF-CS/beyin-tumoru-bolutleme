@@ -1,0 +1,3 @@
+# Windows betikleri CRLF satır sonlarıyla kalmalı
+*.bat text eol=crlf
+*.sh  text eol=lf

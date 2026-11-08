@@ -1,0 +1,14 @@
+# Veri seti (lisans ve boyut nedeniyle depoya konmaz; README > Veri seti)
+data/
+
+# Eğitilmiş modeller GitHub Releases'e yüklenir (dosya başına 100 MB sınırı)
+checkpoints/*.pt
+
+# Ortam ve geçici dosyalar
+venv/
+.venv/
+hizli_test/
+teslim/
+__pycache__/
+.pytest_cache/
+*.pyc
